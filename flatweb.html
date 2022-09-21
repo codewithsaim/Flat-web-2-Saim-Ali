@@ -11,14 +11,14 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
- 
+
     <link rel="stylesheet" href="css/flatwen.css" />
   </head>
 
   <body>
     <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-light fs-5">
+      <div class="container nav-resp">
+        <nav class="navbar navbar-expand-lg   fs-5  ">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -31,7 +31,10 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div
+              class="collapse navbar-collapse mt-5 "
+              id="navbarSupportedContent"
+            >
               <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0">
                 <li class="nav-item px-2">
                   <a
@@ -67,9 +70,9 @@
               <form class="d-flex" role="search">
                 <button
                   type="button"
-                  class="btn text-white ms-5 btn-xl rounded-0"
+                  class="btn text-white ms-5 btn-xl rounded-1"
                   style="
-                    --bs-btn-padding-y: 0.25rem;
+                    --bs-btn-padding-y: 0.70rem;
                     --bs-btn-padding-x: 2.9rem;
                     --bs-btn-font-size: 1.2rem;
                     background-color: #4012cb;
@@ -85,46 +88,53 @@
       </div>
     </header>
 
-
-    <!-- 2 img and text -->
-    <section class="banner">
-      <div class="container  ">
-        <div class="row bantext">
-          <div
-            class="col-sm-6 ftclr col-lg-4 text-sm-center text-xxl-start text-md-start text-center"
-          >
-            <div class="display-2 fw-bold">An Open presentation</div>
-            <p class="bantxt">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim
-              nemo ab, ipsum omnis vitae fuga repudiandae qui voluptatem
-              dignissimos possimus, blanditiis iusto ex ipsa, minus
-              reprehenderit quos
-            </p>
-            <form class="d-flex" role="search">
-              <button
-                type="button"
-                class="btn text-white ms-5 btn-xl cnt rounded-0"
-                style="
-                  --bs-btn-padding-y: 0.25rem;
-                  --bs-btn-padding-x: 2.9rem;
-                  --bs-btn-font-size: 1.2rem;
-
-                  --bs-btn-border-color: #ffffff;
-                "
-              >
-                Contact
-              </button>
-            </form>
+    <!-- 2nd section -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <div class="position-relative h-100">
+            <img
+              class="h-100 bn-img"
+              style="object-fit: cover"
+              src="images/web22.jpg"
+              alt="random image"
+            />
           </div>
         </div>
+        <div class="col-6">
+          <form class="py-5 mt-xl-5 cnt" id="account" method="post">
+            <h1 class="display-1 fw-bold fnt-a">
+              An open<br />
+              Presentation
+            </h1>
+            <label
+              asp-for="Input.Email"
+              class="form-label justify-content-start"
+              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+              rem necessitatibus <br />
+              rerum reprehenderit quidem possimus incidunt itaque eos enim
+              accusantium. <br />
+              Consequatur et accusamus pariatur similique.</label
+            >
+     <br>
+             <a class="btn  btn-outline  btn-lm mt-4 fw-bold " style="color:#4012cb ;" href="#services">Learn more </a> 
+          </form>
+          <figcaption
+          class="    col-xl-11 col-lg-11  text-black mt-0 fw-bold fs-4 col-sm-5 figc1"
+        >
+          "Lorem dolor"<br />
+          Dolor Sit emit
+        </figcaption>
+        </div>
       </div>
-    </section>
+    </div>
+ 
 
     <!-- 3 column section -->
     <footer id="footer">
-      <div class="footer-main">
+      <div class="footer-main 1-2b">
         <div class="container">
-          <div class="row">
+          <div class="row">  
             <div class="col-md-6">
               <div class="footer-wcon">
                 <h3 class="widget-title fs-1">01</h3>
@@ -170,7 +180,8 @@
     <figure class="text-center container">
       <blockquote class="blockquote">
         <div class="display-1 mt-5 fw-bold sec3">
-          “Lorem ipsum <br> dolor sit amet”
+          “Lorem ipsum <br />
+          dolor sit amet”
         </div>
         <button
           type="button"
@@ -220,11 +231,8 @@
       </div>
     </section>
 
-
     <!-- 5th section -->
 
-    
-     
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"

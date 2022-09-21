@@ -1,25 +1,99 @@
 p {
   color: white;
 }
-.banner {
+
+/* section 2 */
+.bn-img {
+  filter: #3b3939; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  opacity: 95%;
+  width: 650px;
+}
+.btn-lm {
+  padding: 0.7rem 3rem;
+}
+.btn-primary,
+.btn-outline {
+  border: 2px solid #4012cb;
+}
+.cnt {
+  margin-top: 9rem;
+}
+figcaption {
+  justify-content: right;
+  text-align: right;
+  align-content: right;
+  align-items: right;
+  text-align: right;
+}
+@media (min-width: 1400px) {
+  .btn-lm {
+    align-content: flex-start;
+  }
+}
+
+@media (max-width: 1400px) {
+  .cnt {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .cnt {
+    margin-top: 9rem;
+    display: none;
+  }
+}
+@media (max-width: 1310px) {
+  .bn-img {
+    width: min-content;
+  }
+}
+@media (max-width: 1032px) {
+  /* .cnt {
+    display: none;
+  } */
+  .bn-img {
+    width: min-content;
+  }
+  .fnt-a {
+    font-size: 3rem;
+    justify-content: center;
+  }
+  .cnt {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 967px) {
+  .cnt {
+    display: none;
+  }
+  .figc1 {
+    display: none;
+  }
+}
+
+/* 2 section */
+/* .banner {
   position: relative;
   background: url(../images/web23.jpg);
   min-height: 100vh;
 
   background-size: cover;
   background-position: left;
-  filter: #3b3939; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  filter: #3b3939; /* IE6-9  
+  -webkit-filter: grayscale(1);  
+  filter: grayscale(1);  
   opacity: 95%;
-}
-.navbar-nav .nav-link.active:hover {
+} */
+/* .navbar-nav .nav-link.active:hover {
   color: #4012cb;
 }
 .ftclr {
   color: white;
   margin-top: 15rem;
-}
+} */
+
 @media (min-width: 576px) {
   .ftclr {
     margin-left: 30%;
@@ -32,7 +106,7 @@ p {
   }
 }
 
-/* after banner work */
+/* 3 after banner work */
 #footer {
   background: #4012cb;
   padding-top: 8em;
@@ -103,3 +177,5 @@ a.manufont {
 .secv {
   max-width: 100%;
 }
+
+/* 2nd section */
