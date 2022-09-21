@@ -1,0 +1,105 @@
+p {
+  color: white;
+}
+.banner {
+  position: relative;
+  background: url(../images/web23.jpg);
+  min-height: 100vh;
+
+  background-size: cover;
+  background-position: left;
+  filter: #3b3939; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  opacity: 95%;
+}
+.navbar-nav .nav-link.active:hover {
+  color: #4012cb;
+}
+.ftclr {
+  color: white;
+  margin-top: 15rem;
+}
+@media (min-width: 576px) {
+  .ftclr {
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 992px) {
+  .bantext {
+    margin-left: 20rem;
+  }
+}
+
+/* after banner work */
+#footer {
+  background: #4012cb;
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+.footer-list {
+  color: #fff;
+  text-decoration: none;
+}
+.widget-title {
+  color: #fff;
+  font-weight: bold;
+  padding-left: 83%;
+  justify-items: start;
+}
+li.dropdown {
+  list-style: none;
+}
+a.manufont {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+@media (min-width: 775px) {
+  .footer-wcon {
+    margin-left: 7rem;
+  }
+  .widget-title {
+    margin-right: 7rem;
+  }
+}
+@media (min-width: 768px) {
+  .banner {
+    background-size: 2000px;
+  }
+}
+
+/* section3 */
+.sec3 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.salespitch {
+  height: auto;
+  background-color: #4012cb;
+  padding-top: 3em;
+  padding-bottom: 7em;
+  margin-top: 6rem;
+}
+.sec4txt {
+  color: #fff;
+}
+.forthb {
+  margin-top: 7rem;
+}
+@media (max-width: 992px) {
+  .forthb {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .forthb {
+    font-size: 2rem;
+  }
+}
+
+/* 5th section */
+.secv {
+  max-width: 100%;
+}
