@@ -98,15 +98,21 @@ figcaption {
   .ftclr {
     margin-left: 30%;
   }
+  .prpl {
+    margin-right: 6rem;
+  }
 }
 
 @media (min-width: 992px) {
   .bantext {
     margin-left: 20rem;
   }
+  .prpl {
+    margin-right: 6rem;
+  }
 }
 
-/* 3 after banner work */
+/* 3section after banner work */
 #footer {
   background: #4012cb;
   padding-top: 8em;
@@ -130,6 +136,7 @@ a.manufont {
   text-decoration: none;
   font-weight: bold;
 }
+
 @media (min-width: 775px) {
   .footer-wcon {
     margin-left: 7rem;
@@ -144,7 +151,14 @@ a.manufont {
   }
 }
 
-/* section3 */
+/* 4th section */
+@media (max-width: 768px) {
+  .btn-seminar {
+    font-size: 12px;
+  }
+}
+
+/* 5th section */
 .sec3 {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -173,9 +187,62 @@ a.manufont {
   }
 }
 
-/* 5th section */
+.lrn {
+  color: #fff !important;
+}
+/*   section */
 .secv {
   max-width: 100%;
 }
 
-/* 2nd section */
+/* text on image */
+img {
+  background: url("../images/web23.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.maintxt > img,
+.txt-hn {
+  position: absolute;
+}
+.txt-hn {
+  padding-bottom: 4rem;
+  margin-left: 6em;
+}
+.opc {
+  filter: #3b3939; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  opacity: 95%;
+}
+/* .opc-txt {
+  margin-top: 8rem;
+} */
+@media (min-width: 576px) {
+  .txt-hn {
+    margin-top: 6em;
+    margin-left: 8em;
+  }
+}
+@media (max-width: 992px) {
+  .txt-hn {
+    margin-top: 6em;
+    margin-left: 5em;
+  }
+}
+@media (max-width: 768px) {
+  .txt-hn {
+    margin-top: 5em;
+    margin-left: 5em;
+  }
+}
+@media (max-width: 669px) {
+  .txt-hn {
+    margin-top: 3em;
+    margin-left: 5em;
+    font-size: 2.2rem;
+  }
+}

@@ -11,14 +11,16 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-
+    <script src="https://kit.fontawesome.com/1ff87369d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/flatwen.css" />
   </head>
 
   <body>
     <header>
       <div class="container nav-resp">
-        <nav class="navbar navbar-expand-lg   fs-5  ">
+        <nav class="navbar navbar-expand-md   fs-5  ">
           <div class="container-fluid">
             <button
               class="navbar-toggler"
@@ -132,7 +134,7 @@
 
     <!-- 3 column section -->
     <footer id="footer">
-      <div class="footer-main 1-2b">
+      <div class="footer-main prpl">
         <div class="container">
           <div class="row">  
             <div class="col-md-6">
@@ -147,8 +149,9 @@
                       dolor nobis.
                     </p>
                   </li>
-                  <li class="dropdown">
+                  <li class="dropdown  ">
                     <a class="manufont" href="#">Learn more </a>
+                    <i class="fa-solid fa-arrow-right-long prp-arrow"></i>
                   </li>
                 </ul>
               </div>
@@ -167,6 +170,7 @@
                   </li>
                   <li class="dropdown">
                     <a class="manufont" href=" #">Learn more </a>
+                    <i class="fa-solid fa-arrow-right-long"></i>
                   </li>
                 </ul>
               </div>
@@ -176,30 +180,37 @@
       </div>
     </footer>
 
-    <!-- 3rd section -->
+
+
+
+    <!-- 4th section -->
     <figure class="text-center container">
       <blockquote class="blockquote">
         <div class="display-1 mt-5 fw-bold sec3">
           “Lorem ipsum <br />
           dolor sit amet”
         </div>
-        <button
-          type="button"
-          class="btn btn-outline-primary btn-primary-active btn-lg rounded-0 btn-primary-hover"
-          style="--bs-btn-color: #4012cb; --bs-btn-border-color: #4012cb"
-        >
-          Free Saminar
-        </button>
+         
+        <a class="btn btn-seminar btn-outline  btn-lm mt-4 fw-bold " style="color:#4012cb ;" href="#services">Free Seminars </a> 
+
       </blockquote>
       <figcaption
-        class="blockquote-footer mt-2 col-4 text-black mt-5 fw-bold fs-4 col-sm-5"
+        class="  mt-2   text-black mt-5 fw-bold  fs-4  col-3  fst-italic d-flex resp-fig"
       >
         "Lorem dolor"<br />
         Dolor Sit emit
       </figcaption>
+      
     </figure>
 
-    <!-- 4th section -->
+
+
+
+
+
+
+
+    <!-- 5th section -->
     <section class="salespitch container mb-5">
       <div class="container ">
         <div class="row">
@@ -210,11 +221,12 @@
                 <div class="pitchText">
                   <div class="sec4txt forthb display-5 ms-5 fw-bold mt-0 mb-4  ">
                     Lorem ipsum <br />
-                    dolor sit .
+                    dolor sit.
                   </div>
                   <p class="ms-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Iste ducimus at obcaecati quis placeat, modi a eaque.<br> Perspiciatis aliquid suscipit totam ipsa? Doloremque,<br> quaerat beatae?</p>
                 </div>
-                <button type="button" class="btn btn-outline-light w-25 ms-5 text-dark bg-light rounded-0   ">Learn more</button>
+                <!-- <button type="button" class="btn btn-outline-light w-25 ms-5 text-dark bg-light rounded-0   ">Learn more</button> -->
+                <a class="btn  btn-outline  ms-5  mt-4 fw-bold btn-close-white col-lg-4 col-md-5 col-sm-6 col-6 col-7  lrn " style="background-color:#4012cb  ;" href="#services">Learn more </a> 
 
                 <div class="  col-6"></div>
               </div>
@@ -224,15 +236,47 @@
             <div class="sec4txt   forthb fw-bold display-2 mt-0 mb-5">
               Lorem ipsum <br> dolor, sit amet </br>consectetur ?
             </div>
-            
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, fuga recusandae totam sunt cumque, incidunt enim est pariatur, nostrum sapiente expedita nulla vel. Tenetur, itaque.</p>
+            <i class="fa-solid fa-handshake fs-1 text-white mb-3 "></i>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, fuga<br> recusandae totam sunt cumque, incidunt enim est pariatur, nostrum<br> sapiente expedita nulla vel. Tenetur, itaque.</p>
+             
           </div>
         </div>
       </div>
     </section>
 
     <!-- 5th section -->
+    <div class="container-fluid">
+      <div class="row">
+    
+          <div >
+              <div class="maintxt">
+                  <img src="images/web23.jpg" class="img-responsive w-100 opc "/>
+                  <div class="container"> 
+                  <div class="row"> 
+                  <h1 class=" txt-hn text-white display-2 fw-bold opc-txt  col-6        ">Lorem ipsum dolor sit amet. </h1>
+                   
+                  </div>
+                  <button type="button" class="btn btn-outline-secondary">Secondary</button>
 
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <!-- 6th section -->
+      <div class="caotainer">
+        <div class="row">
+      <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+       
+    </div>
+  </div>
+</div>
+     <!-- js links for owl carousel -->
+      <script src="jquery.min.js"></script>
+      <script src="owlcarousel/owl.carousel.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -243,5 +287,6 @@
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"
     ></script>
+    
   </body>
 </html>
