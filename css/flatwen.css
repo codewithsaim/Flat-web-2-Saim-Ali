@@ -218,10 +218,12 @@ img {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
   opacity: 95%;
 }
+/* --------------------------------- */
+/* section 5 raw code */
 /* .opc-txt {
   margin-top: 8rem;
 } */
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .txt-hn {
     margin-top: 6em;
     margin-left: 8em;
@@ -244,5 +246,27 @@ img {
     margin-top: 3em;
     margin-left: 5em;
     font-size: 2.2rem;
+  }
+} */
+/* ------------------------ */
+
+.crd-l {
+  margin-top: 5em;
+  float: right;
+}
+@media (max-width: 768px) {
+  .crd-l {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 740px) {
+  .crd-l {
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 576px) {
+  .crd-l {
+    font-size: 1.5rem;
+    margin-left: 9rem;
   }
 }
