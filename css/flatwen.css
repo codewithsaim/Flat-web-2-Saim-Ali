@@ -78,7 +78,11 @@ figcaption {
 }
 @media (max-width: 967px) {
   .cnt {
-    display: none;
+    font-size: 1rem;
+    margin-left: 7rem;
+  }
+  .fnt-a {
+    font-size: 2.5rem;
   }
   .figc1 {
     display: none;
@@ -376,7 +380,7 @@ img {
   }
 }
 /* 8th section */
-.blockquote {
+.blockquote-xiii {
   padding-top: 4rem;
 }
 @media screen and (max-width: 568px) {
@@ -388,4 +392,57 @@ img {
 /* 9th section */
 .sdr {
   padding-top: 9rem;
+}
+
+/* 10th section */
+.faqs {
+  height: auto;
+  /* background-color: #4012cb; */
+  padding-top: 3em;
+  padding-bottom: 7em;
+  margin-top: 6rem;
+}
+.sec10txt-1 {
+  color: #4012cb;
+  font-size: 6rem;
+}
+.sec10txt-2 {
+  color: #4012cb;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.sec10txt-3 {
+  color: black;
+}
+.forthb {
+  margin-top: 7rem;
+}
+.fq-img {
+  margin-top: 11rem;
+}
+.aln-lf {
+  margin-left: 3rem;
+}
+@media screen and (max-width: 568px) {
+  .sec10txt-1 {
+    margin-left: 4rem;
+  }
+  .aln-lf {
+    margin-left: 1rem;
+  }
+  .fq-img {
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec10txt-3 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .sec10txt-2 {
+    padding-right: 17em;
+  }
 }
