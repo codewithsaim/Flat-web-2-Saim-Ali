@@ -10,6 +10,9 @@
   --color-submit: #4012cb;
 }
 
+body {
+  background-color: #f7f0e8;
+}
 p {
   color: white;
 }
@@ -174,6 +177,7 @@ a.manufont {
 .forthb {
   margin-top: 7rem;
 }
+
 @media (max-width: 992px) {
   .forthb {
     font-size: 3rem;
@@ -381,7 +385,9 @@ img {
 .aln-lf {
   margin-left: 3rem;
 }
-
+.lrn-active {
+  background-color: black !important;
+}
 @media screen and (max-width: 568px) {
   .sec10txt-1 {
     margin-left: 6rem;
@@ -409,7 +415,10 @@ img {
     padding-right: 17em;
   }
   .faqs {
-    margin-left: 6rem;
+    padding-left: 2rem;
+  }
+  .lrn-active {
+    width: 20%;
   }
 }
 
@@ -428,8 +437,76 @@ img {
   color: #fff;
   font-size: 5rem;
 }
+
+.strp-icn {
+  margin-left: 4rem;
+}
 @media screen and (max-width: 568px) {
   .ft-h2 {
-    padding-left: 6rem;
+    padding-left: 5.5rem;
   }
+  .ft-h {
+    padding-right: 2rem;
+  }
+}
+.ft-icn {
+  color: #c4c7c8;
+  padding-left: 11em;
+}
+@media screen and (max-width: 568px) {
+  .ft-icn {
+    padding-left: 6em;
+  }
+}
+@media screen and (max-width: 782px) {
+  .ft-icn {
+    padding-left: 8em;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .ft-icn {
+    padding-left: 16em;
+  }
+}
+
+/* ---------------------------- */
+
+.owl-stage {
+  display: flex;
+}
+.owl-item {
+  display: flex;
+  flex: 1 0 auto;
+}
+.owl-height {
+  height: 20rem;
+}
+.caption {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+.flex-text {
+  flex-grow: 1;
+}
+.thumbnail {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15px;
+}
+
+/* Demo Styles */
+
+.container-fluid {
+  max-width: 1230px;
+}
+.navbar-brand {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  margin-left: 0px !important;
+}
+.owl-icn {
+  padding-left: 8rem;
 }
